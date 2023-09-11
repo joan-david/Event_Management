@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(241, 241, 244);
+}
+
+
+header
+{
+    background-color: rgb(72, 45, 135);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 50px;
+
+}
+#logo
+{
+    width:100px;
+    border-radius:45px;
+}
+
+
+nav
+{
+    display:flex;
+    gap:20px;         /*  gap btw home,reg,login */
+    
+
+}
+.nav-link
+{
+    color:aliceblue;
+    text-decoration-line: none;
+    border:1px solid rgb(92, 70, 172);
+    padding:10px;
+    border-radius:4px; 
+      
+}
+
+
+footer
+{
+    background-color: rgb(49, 27, 101);
+    
+    padding:2px;
+    width:100%;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    
+}
+
+footer p
+{
+    color:aliceblue;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.box
+{
+    width:100px;
+    height:100px;
+    
+}
+#events
+{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    
+
+}
+
+.event-card
+{
+    text-align:center;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.1);
+    padding:30px;
+    border-radius: 10px;
+    width:250px;
+    background-color: rgb(218, 217, 230);
+    margin-left: 40px;
+    margin-top:  60px;
+
+
+}
+.event-card1
+{
+    text-align:center;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+    padding:30px;
+    border-radius: 10px;
+    width:250px;
+    background-color: rgb(202, 200, 212);
+    margin-left: 40px;
+    
+}
+
+.box1
+{
+    width:400px;
+    height:500px;
+    border: rgb(23, 9, 9);
+    background-color: rgb(232, 210, 240);
+    text-align:center;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.5);
+    margin-top: 50px;
+    border-radius: 20px;
+
+
+}
+
+#det
+{
+    background-color: #ffffff;
+    background-image: linear-gradient(to right, rgb(42, 12, 79) , rgb(143, 133, 199));
+}
+
+#sub
+{
+    background-color: rgb(240, 237, 245);
+    border-width: 1px;
+    border-radius: 5px;
+    width:60px;
+    height:30px;
+    border-color:rgb(58, 5, 110,);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+}
+
+#logo1
+{
+    height:50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#header1
+{
+    background-color: rgb(47, 15, 68);
+    width:100%;
+    height:40px;   
+}
+
+#footer1
+{
+    background-color: rgb(47, 15, 68);
+    width:100%;
+    height:40px;
+    
+}
